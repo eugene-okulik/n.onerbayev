@@ -23,7 +23,7 @@ my_dict["list"].pop(1)
 
 
 # Task3
-my_dict["dict"]["i am a tuple'"] = "yes you are"
+my_dict["dict"][("i am a tuple",)] = "yes you are"
 my_dict["dict"].pop("num2")
 
 
