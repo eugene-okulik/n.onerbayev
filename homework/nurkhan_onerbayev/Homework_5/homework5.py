@@ -5,7 +5,7 @@ person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 name, last_name, city, phone, country = person
 
 
-# Task2 
+# Task2
 a = "результат операции: 42"
 
 a = a.split(':')
