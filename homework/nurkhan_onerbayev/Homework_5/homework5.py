@@ -8,35 +8,29 @@ name, last_name, city, phone, country = person
 # Task2
 a = "результат операции: 42"
 
-a = a.split(':')
+a = a[-2:]
 
-num = a[-1]
-
-num = int(num.strip())
+num = int(a)
 
 print(num + 10)
 
 
 b = "результат операции: 514"
 
-b = b.split(':')
+b = b[-3:]
 
-numb = b[-1]
+num = int(b)
 
-numb = int(numb.strip())
-
-print(numb + 10)
+print(num + 10)
 
 
 c = "результат работы программы: 9"
 
-c = c.split(':')
+c = c[-1:]
 
-numc = c[-1]
+num = int(c)
 
-numc = int(numc.strip())
-
-print(numc + 10)
+print(num + 10)
 
 
 # Task3
