@@ -8,27 +8,27 @@ name, last_name, city, phone, country = person
 # Task2
 a = "результат операции: 42"
 
-a = a[-2:]
+strend = a.index(":") + 2
 
-num = int(a)
+num = int(a[strend:])
 
 print(num + 10)
 
 
 b = "результат операции: 514"
 
-b = b[-3:]
+strend = b.index(":") + 2
 
-num = int(b)
+num = int(b[strend:])
 
 print(num + 10)
 
 
 c = "результат работы программы: 9"
 
-c = c[-1:]
+strend = c.index(":") + 2
 
-num = int(c)
+num = int(c[strend:])
 
 print(num + 10)
 
