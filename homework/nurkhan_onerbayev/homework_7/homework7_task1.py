@@ -8,4 +8,4 @@ while True:
     else:
         print("Поздравляю! Вы угадали!")
         break
-print("End of the game")
+print("End of the Game")
