@@ -8,7 +8,6 @@ number3 = "результат работы программы: 209"
 
 number4 = "результат: 2"
 
-# Result1
 
 def rise_result(response: str):
     result = response.split(':')
