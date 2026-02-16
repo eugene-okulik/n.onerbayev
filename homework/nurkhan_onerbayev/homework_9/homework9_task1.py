@@ -5,7 +5,7 @@ task_date = "Jan 15, 2023 - 12:05:33"
 
 python_date = datetime.strptime(task_date, '%b %d, %Y - %H:%M:%S')
 
-month_name = datetime.strftime(python_date, '%b')
+month_name = datetime.strftime(python_date, '%B')
 
 print(python_date)
 
