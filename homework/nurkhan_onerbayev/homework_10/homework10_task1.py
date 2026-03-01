@@ -1,0 +1,13 @@
+def finish_me(func):
+    
+    def wrapper(func):
+        print(func)        
+        print("finished")
+    return wrapper
+
+
+@finish_me
+def example(text):
+    print(text)
+    
+example('print me')
