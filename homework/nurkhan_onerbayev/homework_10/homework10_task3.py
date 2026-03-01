@@ -4,13 +4,10 @@ def operation_control(func):
    
         if first < 0 or second < 0:
             operation = '*'
-  
         elif first == second:
             operation = '+'
-  
         elif first > second:
             operation = '-'
-
         else:
             operation = '/'
 
