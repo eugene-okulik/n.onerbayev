@@ -1,6 +1,6 @@
 def operation_control(func):
 
-    def wrapper(first, second):   
+    def wrapper(first, second):
         if first < 0 or second < 0:
             operation = '*'
         elif first == second:
